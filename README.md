@@ -33,12 +33,19 @@ This programs also depends on libraries shown below, but these are already inclu
 First you need to compile OpenCV 3.1.0, I used the commands below to do this:
 
 `wget https://github.com/Itseez/opencv/archive/3.1.0.zip`
+
 `unzip 3.1.0.zip`
+
 `cd opencv-3.1.0`
+
 `mkdir build`
+
 `cd build`
+
 `cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/enigma/opencv-3.1.0-gcc ..`
+
 `make -j`
+
 `make install`
 
 I did not use pkg-config. Do not use ICC to compile OpenCV, beacuse OpenCV need to compile IPP and it may conflict with IPP in ICC. 
