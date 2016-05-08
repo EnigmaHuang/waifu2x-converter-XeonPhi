@@ -6,6 +6,8 @@ An pure CPU version of this program is this(https://github.com/EnigmaHuang/waifu
 
 This project is inspired by this article(https://zhuanlan.zhihu.com/p/20390706), because @sakamoto-poteko(https://www.zhihu.com/people/poteko, GitHub :  https://github.com/sakamoto-poteko) decided not to write computer program any more. Wish him have a happy life.
 
+NOTICE : This is a PROTOTYPE and may NOT have GOOD PERFORMANCE. 
+
 ## Dependencies
 
 ### Platform
